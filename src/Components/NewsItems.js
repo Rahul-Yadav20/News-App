@@ -2,10 +2,6 @@ import React from 'react'
 
 const NewsItems = (props) => {
 
-  // constructor(){
-  //   super();
-  //   console.log("This is constructor..")
-  // } 
     let { title, discription, imgUrl, url, author, date, source, badgeColor } = props;
     return (
       <div className='my-2'>
